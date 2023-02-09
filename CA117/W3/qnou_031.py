@@ -14,5 +14,4 @@ def qnou(s):
    else:
       return False
 
-
 print(f'Words with q but no u: {[word for word in words if qnou(word)]}')
